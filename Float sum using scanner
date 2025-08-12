@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class floatByScanner {
+    public static void main(String[] args) {
+        Scanner wp = new Scanner(System.in);
+        float cp = wp.nextFloat();
+        float bp = wp.nextFloat();
+        System.out.println(cp + bp);
+        wp.close();
+    }
+}
